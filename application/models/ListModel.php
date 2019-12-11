@@ -1,7 +1,7 @@
 <?php
 
 
-class ListModel extends Model
+class ListModel extends CI_Model
 {
 
     // Obtenir la liste des tâches

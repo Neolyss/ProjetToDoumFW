@@ -1,7 +1,7 @@
 <?php
 
 
-class ErrorController extends Controller
+class ErrorController extends CI_Controller
 {
     public function error()
     {

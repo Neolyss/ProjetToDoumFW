@@ -1,6 +1,6 @@
 <?php
 
-class RightController extends Controller {
+class RightController extends CI_Controller {
 
     public function right() {
         if(RightModel::getRightAdmin($_REQUEST['idList'])) { // Si on a les droits en admin

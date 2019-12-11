@@ -1,7 +1,7 @@
 <?php
 
 
-class ListController extends Controller
+class ListController extends CI_Controller
 {
     public function getRightList() { // Retourne le droit sur la liste
         return(ListModel::getRight($_REQUEST['idList']));

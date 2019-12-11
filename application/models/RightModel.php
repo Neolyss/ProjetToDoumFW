@@ -1,7 +1,7 @@
 <?php
 
 
-class RightModel extends Model
+class RightModel extends CI_Model
 {
     // Regarde si l'utilisateur a le droit d'admin sur la liste
     public static function getRightAdmin($idList)

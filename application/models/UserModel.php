@@ -1,7 +1,7 @@
 <?php
 
 
-class UserModel extends Model {
+class UserModel extends CI_Model {
 
     // Tester la connection
     public static function getUserConnexion() {

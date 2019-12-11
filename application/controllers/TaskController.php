@@ -1,7 +1,7 @@
 <?php
 
 
-class TaskController extends Controller
+class TaskController extends CI_Controller
 {
     public function getRightList() { // Retourne vrai si vous avez le droit administrateur
         return(TaskModel::getRight($_REQUEST['idList']));

@@ -1,7 +1,7 @@
 <?php
 
 
-class UserController extends Controller
+class UserController extends CI_Controller
 {
 
     public function connexion() { // Montre la page de connexion
